@@ -1,0 +1,91 @@
+1. Consider the following declarations:
+P: signed short x;
+Q: unsigned long long int x;
+Which of the given declarations is/are CORRECT?
+(a) Only P
+(b) Only Q
+(c) Both P and Q ✅
+(d) Neither P nor Q
+-------------------------------------
+[NAT]
+2. Consider the following program:
+#include <stdio.h>
+int main()
+{
+ int x=32769;
+ printf("%d", x);
+ return 0;
+}
+(Assume integer is of 2 bytes)
+The value printed is- -32767.
+---------------------------------------
+[MCQ]
+3. Consider the following program:
+#include <stdio.h>
+int main()
+{
+ char ch=141;
+ printf("%d", ch);
+ return 0;
+}
+The output is-
+(a) Compiler Error
+(b) –115 ✅
+(c) –128
+(d) 141 
+--------------------------------------------
+[MCQ]
+4. Consider the following function:
+#include <stdio.h>
+int main()
+{
+ char ch = –134;
+ printf("%c", ch);
+ return 0;
+}
+The output is-
+(a) A (b) Garbage
+(c) Compiler Error (d) z ✅
+-----------------------------------------------
+[NAT]
+5. Consider the following program:
+#include <stdio.h>
+int main()
+{
+ char ch=125;
+ ch=ch+6;
+ printf("%d", ch);
+ return 0;
+}
+The output is- -125.
+-----------------------------------------------------------
+[NAT]
+6. Consider the following program:
+#include <stdio.h>
+int main()
+{
+ int x=-32769;
+ printf("%d", x);
+ return 0;
+}
+(Assume integer is of 2 bytes)
+The output is: 32767
+-----------------------------------------------------------------
+7. Consider the following two statements:
+P: C standard specifies fixed number of bytes for every
+data type.
+Q: The size order for int, short and long data type is
+short<int<long
+Which of the following statements is/are CORRECT?
+(a) Only P
+(b) Only Q ✅
+(c) Neither P nor Q
+(d) Both P and Q
+--------------------------------------------------------
+[MSQ]
+8. Which of the following is/are valid declaration of a
+signed short integer?
+(a) short int a; ✅
+(b) short a;✅
+(c) signed short a;✅
+(d) signed short int a;✅

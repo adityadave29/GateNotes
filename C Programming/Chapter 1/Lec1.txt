@@ -1,0 +1,6 @@
+c - Procedure oriented programming
+Program - Sequence of instructions
+Abstractions - the process of taking away or removing characteristics from something in order to reduce it to a set of essential characteristics (ATM Machine) 
+compiler and essembler
+
+Note: Only Introduction no need to watch

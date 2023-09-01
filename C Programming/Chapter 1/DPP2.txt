@@ -1,0 +1,93 @@
+[MCQ]
+1. include <stdio.h>
+int main(void){
+int a;
+a = 2 * 6/5 + 3.0/2 + 1;
+printf("%d", a);
+return 0;
+}
+The value of a is ___
+(a) 4.9 (b) 4.0
+(c) 4.5 (d) 4✅
+---------------------------------------------------
+[MCQ]
+2. #include <stdio.h>
+int main(void){
+int a;
+a = 16.0 /4 * 5 % 3;
+printf("%d", a);
+return 0;
+}
+The value of a printed is ___
+(a) Compiler error✅ (b) 8.0
+(c) 2 (d) 8
+-------------------------------------------
+[NAT]
+3. Consider the following program.
+#include<stdio.h>
+void main()
+{
+int a;
+a=32>24>13>10>8>-1>0;
+printf("%d",a);
+ }
+The output is 1.
+----------------------------------------------------------
+[NAT]
+4. #include<stdio.h>
+void main()
+{
+int a;
+a=25>15>0!= 12<45>42 !=65;
+printf("%d",a);
+}
+The output is 1.
+-----------------------------------------------------------------
+[MCQ]
+5. Consider the following program:
+#include<stdio.h>
+void main()
+{
+ int a=0, b=1;
+ a=(a=5)&&(b=0);
+ printf("%d", a);
+ printf("%d", b);
+}
+The output is:
+(a) 50 (b) 00 ✅
+(c) 10 (d) Compiler error
+------------------------------------------------------------------
+[MCQ]
+6. Consider the following statements:
+P: The precedence of the modulus operator is higher
+than multiplication or division operator.
+Q: The result of the modulus operator contains the sign
+of the second operand.
+Which of the following statements is/are
+INCORRECT?
+(a) Only P
+(b) Only Q
+(c) Both P and Q ✅
+(d) Neither P nor Q
+[MCQ]
+-------------------------------------------------------------------
+7. Consider the following program:
+#include<stdio.h>
+void main()
+{
+ int a=2022;
+  printf("%d%d%d", a!=2024, a=2023, a==2021);
+}
+The output is-
+(a) 020220 (b) 020231
+(c) 002021 (d) 120230✅
+[NAT]
+-----------------------------------------------------------------
+8. Consider the following program:
+#include<stdio.h>
+void main()
+{
+ int x=-2023;
+ printf("%d", ~(x=x+5)) ;
+}
+The output is 2017.

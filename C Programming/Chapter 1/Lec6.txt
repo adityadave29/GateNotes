@@ -1,0 +1,13 @@
+bitwise operator & , | , ^(xor);
+
+0 ^ 0 = 0;
+0 ^ 1 = 1;
+1 ^ 0 = 0;
+1 ^ 1 = 0;
+
+left shift (<<)
+right shift (>>)
+
+-ve number 
+1. sign magnitude
+2. 2's complement

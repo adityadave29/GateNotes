@@ -1,0 +1,20 @@
+short int a = 20;
+printf("%d",a);
+here %d is format specifier
+
+%d - short int,int;
+%ld = long int;
+%lld = long long int;
+%u = unsigned short int,int
+
+if value is unsigned but negative number so sub(-) from max;
+ex: unsigned short int = -2; output:65534(65535-2); 
+recall round circle diagram**
+
+scanf("%d",&a);
+
+char signed = 256
+unsigned 0 to 255;
+-128 to 127
+
+important**

@@ -1,0 +1,13 @@
+\n - for new line
+\t - for new frame or tab
+8 bit 
+operators : 10(operand) +(operator) 20(operand)
+
+(i) %,x,/
+(ii) +,-
+
+L to R rule if same equality comes
+a%b for only integers
+-ve%+ve=-ve
++ve%-ve=+ve
+-ve%-ve=-ve

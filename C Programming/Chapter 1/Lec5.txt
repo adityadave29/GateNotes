@@ -1,0 +1,7 @@
+for % a and b both must be integer
+
+1. !
+2. &&
+3. ||
+
+++a,a++,--a,a--;

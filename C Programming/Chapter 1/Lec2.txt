@@ -1,0 +1,17 @@
+Note: Basic Introduction of Data Types
+
+-c s/w compiler + library
+-header file
+-.h for header file
+-a=20 identifier
+-if we will give input A then key board will type A but cpu will understand 65 in binary so for that we have to use (int a and string a)
+-Data types
+primitive     derived     user-defined
+int            array          structure
+float          pointer         union
+char           string            enum
+bool                            typedef
+void
+-int (short(signed(default),unsigned(-ve not allowed)),int,long,long long)
+-floating (float,double,long double)
+-char(signed,unsigned)
